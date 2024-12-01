@@ -9,3 +9,13 @@ This project contains a web crawler designed to scrape information about Minecra
 - **Dead**: Projects without any recent updates.
 
 The gathered data is stored in CSV files for further analysis.
+
+---
+
+## Features
+- **Automated Web Scraping**: Crawls the most downloaded Minecraft mods from CurseForge.
+- **GitHub Repository Analysis**: Classifies repositories linked to the mods as *Alive*, *Zombie*, or *Dead*.
+- **CSV Output**: Exports mod details and repository activity to CSV files.
+
+---
+
