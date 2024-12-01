@@ -41,19 +41,18 @@ Install them using:
 
 ---
 
-## File Descriptions
-### `webcrawler.py`
-The script performs the following tasks:
-1. Scrapes the first five pages of the most downloaded Minecraft mods from [CurseForge](https://www.curseforge.com).
-2. Extracts mod information:
-   - Name
-   - Download count
-   - Latest release date
-   - Number of versions available
-3. Analyzes linked GitHub repositories to classify the mods into:
-   - Alive
-   - Zombie
-   - Dead
-4. Outputs results into CSV files:
-   - `mods.csv`: Contains mod details.
-   - `repos.csv`: Contains GitHub repository activity data.
+## Usage
+1. Clone the repository:
+   `git clone https://github.com/yourusername/WebCrawlerForCS399.git
+   cd WebCrawlerForCS399`
+
+2. Install the required Python libraries:
+
+  `pip install -r requirements.txt`
+
+3. Download and install ChromeDriver. Ensure it matches your installed Chrome version and is added to your system's PATH.
+
+   `Download ChromeDriver`
+
+4. Update the isZombie function in webcrawler.py with your GitHub personal access token.
+
