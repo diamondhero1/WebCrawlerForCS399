@@ -58,7 +58,7 @@ Install them using:
 
 ##Ouput 
 
-The output results into csv files:\
+The output results into csv files:
 - `mods.csv`: Contains mod details.
 - `repos.csv`: Contains GitHub repository activity data.
 
