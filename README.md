@@ -10,14 +10,12 @@ This project contains a web crawler designed to scrape information about Minecra
 
 The gathered data is stored in CSV files for further analysis.
 
----
-
 ## Features
 - **Automated Web Scraping**: Crawls the most downloaded Minecraft mods from CurseForge.
 - **GitHub Repository Analysis**: Classifies repositories linked to the mods as *Alive*, *Zombie*, or *Dead*.
 - **CSV Output**: Exports mod details and repository activity to CSV files.
 
----
+
 ## Prerequisites
 ### Python Packages
 This script requires the following Python libraries:
@@ -39,7 +37,6 @@ Install them using:
   Bodega is used for analyzing GitHub repositories. Ensure Bodega is installed and configured correctly, and use a valid GitHub personal access token for authentication.  
   - [Bodega Repository](https://github.com/mehdigolzadeh/BoDeGHa)
 
----
 
 ## Usage
 1. Clone the repository:\
@@ -54,9 +51,8 @@ Install them using:
 
 4. Update the isZombie function in webcrawler.py with your GitHub personal access token.
 
----
 
-##Ouput 
+## Ouput 
 
 The output results into csv files:
 - `mods.csv`: Contains mod details.
