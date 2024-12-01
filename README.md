@@ -29,4 +29,4 @@ This script requires the following Python libraries:
 
 Install them using:
 ```bash
-pip install beautifulsoup4 selenium
+pip install beautifulsoup4 selenium csv subprocess re
