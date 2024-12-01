@@ -28,5 +28,15 @@ This script requires the following Python libraries:
 - `re`
 
 Install them using:
-```bash
-pip install beautifulsoup4 selenium csv subprocess re
+`pip install beautifulsoup4 selenium csv subprocess re`
+
+## Additional Requirements
+- **Selenium WebDriver**:  
+  Selenium requires a WebDriver to interact with browsers. Download and install ChromeDriver. Ensure the version matches your installed Chrome browser version.  
+  - [Download ChromeDriver](https://sites.google.com/chromium.org/driver/)
+
+- **Bodega Tool**:  
+  Bodega is used for analyzing GitHub repositories. Ensure Bodega is installed and configured correctly, and use a valid GitHub personal access token for authentication.  
+  - [Bodega Repository](https://github.com/yourlinkhere)
+
+---
