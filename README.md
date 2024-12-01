@@ -37,6 +37,23 @@ Install them using:
 
 - **Bodega Tool**:  
   Bodega is used for analyzing GitHub repositories. Ensure Bodega is installed and configured correctly, and use a valid GitHub personal access token for authentication.  
-  - [Bodega Repository](https://github.com/yourlinkhere)
+  - [Bodega Repository](https://github.com/mehdigolzadeh/BoDeGHa)
 
 ---
+
+## File Descriptions
+### `webcrawler.py`
+The script performs the following tasks:
+1. Scrapes the first five pages of the most downloaded Minecraft mods from [CurseForge](https://www.curseforge.com).
+2. Extracts mod information:
+   - Name
+   - Download count
+   - Latest release date
+   - Number of versions available
+3. Analyzes linked GitHub repositories to classify the mods into:
+   - Alive
+   - Zombie
+   - Dead
+4. Outputs results into CSV files:
+   - `mods.csv`: Contains mod details.
+   - `repos.csv`: Contains GitHub repository activity data.
