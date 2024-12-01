@@ -42,7 +42,7 @@ Install them using:
 ---
 
 ## Usage
-1. Clone the repository:
+1. Clone the repository:\
    `git clone https://github.com/yourusername/WebCrawlerForCS399.git`\
    `cd WebCrawlerForCS399`
 
@@ -53,4 +53,12 @@ Install them using:
    `Download ChromeDriver`
 
 4. Update the isZombie function in webcrawler.py with your GitHub personal access token.
+
+---
+
+##Ouput 
+
+The output results into csv files:\
+- `mods.csv`: Contains mod details.
+- `repos.csv`: Contains GitHub repository activity data.
 
