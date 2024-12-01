@@ -43,14 +43,13 @@ Install them using:
 
 ## Usage
 1. Clone the repository:
-   `git clone https://github.com/yourusername/WebCrawlerForCS399.git`
+   `git clone https://github.com/yourusername/WebCrawlerForCS399.git`\
    `cd WebCrawlerForCS399`
 
-2. Install the required Python libraries:
+2. Install the required Python libraries:\
   `pip install -r requirements.txt`
 
-3. Download and install ChromeDriver. Ensure it matches your installed Chrome version and is added to your system's PATH.
-
+3. Download and install ChromeDriver. Ensure it matches your installed Chrome version and is added to your system's PATH.\
    `Download ChromeDriver`
 
 4. Update the isZombie function in webcrawler.py with your GitHub personal access token.
