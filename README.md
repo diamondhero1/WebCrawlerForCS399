@@ -18,4 +18,15 @@ The gathered data is stored in CSV files for further analysis.
 - **CSV Output**: Exports mod details and repository activity to CSV files.
 
 ---
+## Prerequisites
+### Python Packages
+This script requires the following Python libraries:
+- `beautifulsoup4`
+- `selenium`
+- `csv`
+- `subprocess`
+- `re`
 
+Install them using:
+```bash
+pip install beautifulsoup4 selenium
